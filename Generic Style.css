@@ -1,0 +1,21 @@
+/*global*/
+body{
+    background-color: black;
+    color: white;
+    }
+p{
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/*utilities*/
+
+/*header*/
+
+/*main*/
