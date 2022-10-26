@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Geographic</title>
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/mystyle.css">
     <title>My National Geographic</title>
 </head>
 
 <body>
+    <nav>
+        <a href="index.com"><img src="icon" alt="">National Geographic Logo</a>
+        <a  class="link-login"href="login.link">Login</a>
+        <a class="link-search"href="search.link"><img src="Magnifying Glass Icon" alt="Search Icon"></a>
+        <a class="link-news" href="newsletter.link">Newsletters</a>
+        <a class="link-subs" href= "subscribe.link">Subscribe</a>
+        <a class="link-menu"href="menu.link">Menu<img src="Down Icon" alt=""></a>
     <nav class="menu">
         <img class="logo-border" src="img/ng-border.png" alt="nat geo logo frame">
         <img class="logo-complete" src="img/ng-logo-2fl.webp" alt="National Geographic Logo"></a>
@@ -26,6 +34,12 @@
     </nav>
 
     <header>
+        <h1 class="header-title" >Latest Stories</h1>
+        <p class="header-info" ><a href=subscribe.link>Subscribe<!--need to add underline and :hover gradient'ish fill--></a> for full access to read stories from National Geographic.</p>
+            <div class="bar" >
+                <hr><!--this is only a guess so far as to how to achieve the yellow bar under the header-->
+            </div>
+            
         <div class="header">
             <h1 class="header-title"    >Latest Stories</h1>
             <p class="header-info"  > <span>Subscribe</span> for full access to read stories from National Geographic. </p>
@@ -35,8 +49,11 @@
 
     <main>
         <div class="news">
-<<<<<<< HEAD
             <div class="main-news"><!--Remember the yellow bottom and right (shadow element?)-->
+                <!--add img with story link and also to add hover:zoom-->
+                <a href="link to history magazine"><h3>History Magazine</h3></a>
+                <p>How ancient Egyptians of all classess strived for eternal life</p>
+                <img src="clipboard image" alt=""><h3>Read</h3>
                 <img src="img\Tut15.webp" alt="King Tut Mural">
                 
                     <div class="main-news-text"> <h3>History Magazine</h3>
@@ -45,15 +62,9 @@
                     Read</a>
                     </div>
 
-=======
-            <div class="main-news"><!--Remember the bright yellow bottom and right (shadow element?)-->
-                <!--add img with story link and also to add hover:zoom-->
-                <a href="link to history magazine"><h3>History Magazine</h3></a>
-                <p>How ancient Egyptians of all classess strived for eternal life</p>
-                <img src="clipboard image" alt=""><h3>Read</h3>
->>>>>>> 0b890c099b1b9e5d45ef914741b9371c2799348b
             </div>
 
+            <div class="second-news-story">
             <div class="second-news">
                 <!--add img with story link and also to add hover:zoom-->
                 <img src="img/ngm-2211-tut-treasure-dataviz_primary_ai2html-desktop-small.jpg" alt="Photo of Tut tut-torso">
@@ -62,55 +73,59 @@
                 <img src="arrow-circle image" alt=""><h3>Explore</h3>
             </div>
 
+            <div class="third-news-story"><!--add img with story link and also to add hover:zoom-->
             <div class="third-news-story">
                 <img src="img/egypts.webp" alt="egypts"><!--add img with story link and also to add hover:zoom-->
                 <!--add img and story link-->
                 <a href="link to magazine"><h3>magazine</h3></a>
                 <p>Egypt's audatious plan to build a new capital in the desert</p>
-                <img src="clipboard image" alt=""><h3>Read</h3>
-            </div>
-        </div>
-
-        <Section>
-            <!--don't foget the vertical bar, text scrolling commands,  and to add :hover/underscores to all <p> elements below-->
+@ -54,42 +68,42 @@
             <h2>Today's Pics</h2>
             <div class="todays-picks-item"></div>
                     <div>
+                    <a href="easter-island-story-link"><img src="easter-island"alt="Photo of Easter Island statues on slanted hill">
                     <a href="ei-fire-link"><img src="img/Capture2.PNG"alt="Photo of Easter Island statues on slanted hill">
                     <h4>History & Culture</h4>
                     <p>Easter Island's iconic statues remain at risk after fire</p></a>
                 </div>
                 <div>
+                    <a href="who-tut-link"><img src="King Tut's sarcophagus torso "alt="Photo showing the torso of King Tut's Sarcophogus">
                     <a href="who-tut-link"><img src="img/01-king-tut.webp" alt="Photo showing the torso of King Tut's Sarcophogus">
                     <h4>History & Culture</h4>
                     <p>Who was King-Tut?</p></a>
                 </div>
                 <div>
+                        <a href="coronavirus-link"><img src="test-tubes" alt="Photo of blue-gloved hands inserting a swab into a test tube">
                         <a href="coronavirus-link"><img src="img/Capture3.PNG" alt="Photo of blue-gloved hands inserting a swab into a test tube">
                         <h4>Science</h4>
                         <h5>CORONAVIRUS COVERAGE</h5>
                         <p>Omicron subvariants B!.1 and BQ.11 may soon take over the U.S.<p></a>
                 </div>
                 <div>
+                    <a href="tut-100-link"><img src="tuts-tomb" alt="Sepia photo of King Tut's tomb">
                     <a href="tut-100-link"><img src="img/STOCK_MM9195_AR6139137.jpg" alt="Sepia photo of King Tut's tomb">
                         <h4>Magazine</h4>
                         <p>  How was King Tut's tomb discovered 100 yers ago?"  </p></a>
                 </div>
                 <div>
+                    <a href="tut-mri-link"><img src="tuts-sarcophagus-mri" alt="King Tut's Sarcophogus MRI Infographic">
                     <a href="tut-mri-link"><img src="img/Capture.PNG" alt="King Tut's Sarcophogus MRI Infographic">
                     <h4>Magazine</h4>
                     <p>King Tut's mummy hid many treasures. This graphic unwraps them<p></a>
                 </div>
                 <div>
+                    <a href="tut-anniversary-link"><img src="nat-geo-tut-cover"alt="Coverpage for National Geographics King Tut edition 2022">
                     <a href="tut-anniversary-link"><img src="img/Capture4.PNG"alt="Coverpage for National Geographics King Tut edition 2022">
                     <h4>Photography</h4>
                     <h5>BEHIND THE COVER</h5>
+                    <p>How an obscure stature became the face of our King Tutanniversary</p></a>
                     <p>How an obscure statue became the face of our King Tutanniversary</p></a>
                 </div>                              
             </div>           
         </Section>
     </main>
     <footer>
+        <a href="latest-link">SEE MORE</a><!--need to add underline and :hover gradient'ish fill-->
         <a href="latest-link">SEE MORE</a><!--need to add underline and :hover gradient'ish upwards scroll fill feature-->
     </footer>
 </body>
