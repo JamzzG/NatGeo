@@ -145,7 +145,7 @@ font-size: 13px;
 .main-news img{
     box-shadow: 6px 6px #fc0;
     margin: 20px;
-    opacity: .8
+    opacity: .8;        
     }
 
 .main-news-text{
@@ -179,7 +179,7 @@ font-size: 13px;
     /*second-news*/
 .second-news{
     text-decoration: none;
-    margin: 18px;
+    margin: 10px;
     padding: 18px;
     font-weight: bold;
 }
@@ -202,13 +202,13 @@ font-size: 13px;
 
 .second-news-text p{
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     font-size: 22px;
 }
 
 .second-news img{
     height: 300px;
-    width:450px;;
+    width:500px;
     object-fit: cover;
     object-position: 50%, 40%; 
 }
@@ -245,8 +245,21 @@ font-size: 13px;
     
     .third-news img{
         height: 400px;
-        width:1100px;;
+        width:1100px;
         object-fit: cover;
-        object-position: 50%, 40%;
-        
+        object-position: 50%, 40%;        
     }
+
+section img{
+    width: 300px;
+    height: 200px;
+}
+
+section {
+    text-decoration: none;
+    color white
+}
+
+section h4[
+
+]
