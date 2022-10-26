@@ -72,7 +72,7 @@ a.link-subs{
     background: linear-gradient(to left, black 50%, #fc0 50%) right;
     background-size: 200%;
     transition: .3s ease;
-    /*transition: width 0.3s ease 0s, color 0.3s ease 0s*/
+    
 
 } 
 
@@ -124,58 +124,129 @@ font-size: 13px;
 
 .header-info span{
     color: #fff;
+    text-decoration: underline #fc0;
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, black 50%, #fc0 50%);
     transition: .1s ease-in-out, color .1s ease-in;
 }
 
 .header-info span:hover{
-        color: black;
-        background-image: var(#fc0);  
-        background-position: 0% 100%;
+    color: black;
+    background-image: var(#fc0);  
+    background-position: 0% 100%;
 }
         
-        
 /*main-news*/
-    .main-news{
-        position: relative
+.main-news{
+    position: relative;
+    left: 12px
+ }
+
+.main-news img{
+    box-shadow: 6px 6px #fc0;
+    margin: 20px;
+    opacity: .8
     }
 
-    .main-news img{
-        padding-inline: 20px;
-    }
+.main-news-text{
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+}
 
-    .main-news-text{
-        position: absolute;
-        bottom: 30px;
-        left: 30px;
-
-    }
-
-    .main-news-text h3{
+.main-news-text h3{
         text-transform: uppercase;
         font-size: 14px;
         letter-spacing: 3px;
 
     }
 
-    .main-news-text p{
-        font-size: 40px;
-        font-weight: bold;
-        color:#fff
-    }
+.main-news-text p{
+    font-size: 40px;
+    font-weight: bold;
+    color:#fff
+}
 
-    .main-news-text a{
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 12px;
-        letter-spacing: 3px;
+.main-news-text a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    /*second-news*/
+.second-news{
+    text-decoration: none;
+    margin: 18px;
+    padding: 18px;
+    font-weight: bold;
+}
+
+.second-news-text{
+    text-transform: uppercase;
+    padding: 9px;
+    font-size: 12px;
+    background-color: white;
+    color:black;
+    line-height: 40px;
+}
+
+.second-news-text a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+
+.second-news-text p{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.second-news img{
+    height: 300px;
+    width:450px;;
+    object-fit: cover;
+    object-position: 50%, 40%; 
+}
+
+    /*third-news*/
+    .third-news{
         text-decoration: none;
+        margin: 1px;
+        padding: 18px;
         font-weight: bold;
     }
-
-    /*secondary-news*/
-    .secondary-news img{
-        height: 350px;
-        width: 100px;
+    
+    .third-news-text{
+        text-transform: uppercase;
+        padding: 9px;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        line-height: 40px;
+    }
+    
+    .third-news-text a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+    }
+    
+    
+    .third-news-text p{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 22px;
+    }
+    
+    .third-news img{
+        height: 400px;
+        width:1100px;;
+        object-fit: cover;
+        object-position: 50%, 40%;
+        
     }
